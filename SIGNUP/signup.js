@@ -11,7 +11,7 @@ function mysignup (event){
     }
     for(let i=0;i<signupArr.length;i++){
         if(signupArr[i].email==obj.email){
-            
+        document.querySelector("#alert").innerHTML=""   
         let alertbox=document.createElement("p")
         alertbox.setAttribute("id","alert")
         alertbox.innerText="This email address is already associated with an account. If this account is yours, you can Signin"
