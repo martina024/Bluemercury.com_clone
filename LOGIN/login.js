@@ -17,6 +17,7 @@ let loginArr=JSON.parse(localStorage.getItem("signUp")) || [];
             }
         })
         if(flag==true){
+            document.querySelector("#alert").innerHTML=""
             let alertbox=document.createElement("p")
             alertbox.setAttribute("id","alert")
             alertbox.innerText="Invalid email or password"
