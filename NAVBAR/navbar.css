@@ -1,0 +1,86 @@
+#navimg>img{
+    width: 50%;
+    cursor: pointer;
+    
+}
+#navbar{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 100%;
+    position:sticky;
+    top:0px
+}
+#nav{
+    display: grid;
+    grid-template-columns: repeat(7,90px);
+    gap: 10px;
+    margin-left: -40px;
+    justify-content: center;
+   
+
+  
+ }
+ #nav>div{
+   width: auto;
+   /* border: 1px solid red; */
+justify-content: space-around;
+   
+ }
+ #nav>div:nth-child(1){
+    width:30% ;
+    /* margin-left: 30px; */
+    
+ }
+ #nav>div:nth-child(2){
+    width:30% ;
+    margin-left: -25px;
+ }
+ #nav>div:nth-child(3){
+    width:40% ;
+    margin-left: -50px;
+ }
+ #nav>div:nth-child(4){
+    width:50% ;
+    margin-left: -50px;
+ }
+ #nav>div:nth-child(5){
+    width:40% ;
+    margin-left: -50px;
+ }
+ #nav>div:nth-child(6){
+    width:40% ;
+    margin-left: -50px;
+ }
+ #nav>div:nth-child(7){
+    width:100% ;
+    margin-left: -50px;
+ }
+ .navlast{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 50%;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+ }
+ .navlast>img{
+    width: 60%;
+    
+ }
+
+ #navshop{
+    cursor: pointer;
+ }
+ #navnew{
+    cursor: pointer;
+ }
+ .navlast img:nth-child(3){
+    cursor: pointer;
+ }
+ .navlast img:nth-child(4){
+    cursor: pointer;
+ }
