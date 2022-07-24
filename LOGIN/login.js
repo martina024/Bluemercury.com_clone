@@ -13,7 +13,7 @@ let loginArr=JSON.parse(localStorage.getItem("signUp")) || [];
             if(ele.email===obj.email && ele.password===obj.password){
                 flag=false
                 localStorage.setItem("login",JSON.stringify(ele))
-                window.location.href="home_page.html"
+                window.location.href="index.html"
             }
         })
         if(flag==true){
