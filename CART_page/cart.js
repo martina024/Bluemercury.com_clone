@@ -25,8 +25,8 @@ function displaytable(cartLS){
             delfunction()
             count--
             document.querySelector("#item").innerText=count
-            sum-=eval(elem.price1)
-            document.querySelector("#total").innerText=sum
+//             sum-=eval(elem.price1)
+//             document.querySelector("#total").innerText=sum
          })
 
         let td4=document.createElement("td")
