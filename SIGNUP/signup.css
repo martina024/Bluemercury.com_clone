@@ -3,7 +3,7 @@
 }
 form{
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 10px;
     width: 30%;
     padding: 30px;
     text-align: center;
@@ -23,7 +23,7 @@ input[type='submit']{
     border: 0px;
     cursor: pointer;
     width: 60%;
-    margin: auto;
+    margin: 15px auto;
     font-size:x-small;
     padding: 10px 8px;
 }
@@ -33,6 +33,7 @@ h1{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight:lighter; 
     color:midnightblue ;
+   
 }
 h1+p{
     font-size: small;
@@ -40,17 +41,20 @@ h1+p{
     font-weight: lighter;
     width: 90%;
     margin: auto;
+   
 }
 input[type='password']+p{
     text-align: end;
     font-size:x-small;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: lighter;
+    
 }
 input[type='password']+p+p{
     font-size:x-small;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: lighter; 
+    margin-top: 10px;
 }
 div{
     display: flex;
@@ -61,7 +65,7 @@ div{
 }
 div>p{
     margin-left:18%;
-    
+     
 }
 a{
     color: black;
