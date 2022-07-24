@@ -6,7 +6,7 @@
 
     document.querySelector("#navimg").addEventListener("click",mylogo)
         function mylogo(){
-            window.location.href="home_page.html"
+            window.location.href="index.html"
         }
     
      document.querySelector(".navlast img:nth-child(3)").addEventListener("click",myaccount)
