@@ -25,7 +25,7 @@
 
     document.querySelector(".logo").addEventListener("click",mylogo)
         function mylogo(){
-            window.location.href="home_page.html"
+            window.location.href="index.html"
         }
     
      document.querySelector(".account").addEventListener("click",myaccount)
@@ -36,3 +36,4 @@
         function mybag(){
             window.location.href="cart.html"
         }
+
