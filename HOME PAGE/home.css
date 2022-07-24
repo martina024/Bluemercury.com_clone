@@ -16,6 +16,7 @@
 }
 #rightdiv{
     background-color:white ;
+    width: 80%;
    
 }
 #rightdiv>img{
@@ -23,21 +24,21 @@
     margin-top: 30px;
 }
 #rightdiv>img:last-child{
-    margin-top: -30px;
+    margin-top: -10px;
 }
 #rightdiv>h4{
     font-weight: normal;
     font-size: smaller;
 }
 #rightdiv>h4+p{
-    font-size: x-small;
+    font-size: small;
     font-weight: lighter;
     margin-top: 10px;
 }
 #rightdiv>p+p{
     font-size: x-small;
     font-weight: lighter;
-    margin-top:-10px ;
+    margin-top:10px ;
     
 }
 #oceanEyes{
@@ -136,6 +137,7 @@
     width: 70%;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 50px;
     
 }
 #lastdiv img{
@@ -159,18 +161,6 @@
     color:midnightblue;
     font-weight: bolder; 
  }
- #bluethread{
-    background-color: lightskyblue;
-    margin-top: 70px;
-    height: 30px;
-
- }
- #bluethread>p{
-   font-size:x-small;
-   text-align: center;
-   padding-top: 10px;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- }
  #drag{
     width: 100%;
     position: relative;
@@ -189,8 +179,10 @@
  #drag>div>button{
     border: 0px;
     background-color: white;
+    margin-left: 10px;
+    cursor: pointer;
  }
- #drag>h1{
+ #input>h1{
     position: absolute;
     top: 20%;
     left: 55%;
@@ -198,7 +190,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: dimgrey;
  }
- #drag>p{
+ #input>p{
     position: absolute;
     top: 35%;
     left: 55%;
@@ -208,10 +200,77 @@
     font-weight: lighter;
     font-size: smaller;
  }
- #drag>a{
+ #input>a{
     position: absolute;
-    top: 59%;
+    top: 50%;
     left: 55%;
-    font-size:15px;
+    font-size:10px;
     color: black;
+    font-weight: bold;
  }
+ #input1>h1{
+    position: absolute;
+    top: 38%;
+    left: 2%;
+    font-weight: lighter;
+    font-family: Montserrat Light,sans-serif;
+    font-size:30px;
+    color: midnightblue;
+    /* margin-bottom: -40px; */
+ }
+ #input1>p{
+    position: absolute;
+    top: 51%;
+    left: 2%;
+    width: 25%;
+    color: dimgrey;
+    font-family: Montserrat Light,sans-serif;
+    font-weight: lighter;
+    font-size: smaller;
+ }
+ #input1>a{
+    position: absolute;
+    top: 65%;
+    left: 2%;
+    font-size:10px;
+    font-weight: bold;
+    color: midnightblue;
+ }
+ #input1>h5{
+    position: absolute;
+    top: 119px;
+    left: 2%;
+    font-weight: lighter;
+    font-family: Montserrat Light,sans-serif;
+    /* margin-left: 10px; */
+    font-size:15px;
+ }
+ .input2{
+    position: absolute;
+    top: 70px;
+    left: 12%;
+    color: white;
+    font-weight: lighter;
+    font-family: Montserrat Light,sans-serif;
+    /* margin-left: 10px; */
+    font-size:15px;
+ }
+ .input2>h1{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-weight: lighter;
+    font-family: Montserrat Light,sans-serif;
+    font-size:30px;
+    color: white;
+ 
+ }
+ #input2>a{
+    position: absolute;
+    top: 65%;
+    left: 2%;
+    font-size:10px;
+    font-weight: bold;
+    color: midnightblue;
+ }
+
