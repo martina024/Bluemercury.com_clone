@@ -1,0 +1,128 @@
+#content{
+    width: 70%;
+    margin: auto;
+  }
+   table{
+    border-collapse: collapse;
+    border-color: none;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+   }
+   table td,table th{
+    /* border: 1px solid red; */
+    padding: 10px;
+    text-align: left;
+    font-family: Montserrat Regular,sans-serif;
+    color: #12284c;
+    
+   }
+   table th{
+    padding-top:12px ;
+    padding-bottom: 12px;
+    text-align: left;
+    color: inherit;
+    background-color: transparent;
+    
+   }
+   #remove{
+    color: inherit;
+    background-color: transparent;
+    font-size: x-small;
+    font-weight: lighter;
+   }
+   h1{
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: Montserrat Regular,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #12284c;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
+   }
+   #p{
+    margin-left: 10px;
+    font-style: normal;
+    color: #12284c;
+    margin-top: 80px;
+   }
+   #checkbox{
+    margin-left: 10px;
+    font-family: Montserrat Semi Bold,sans-serif;
+    
+   }
+   label{
+    font-family: Montserrat Semi Bold,sans-serif;
+    font-weight: bolder;
+    font-size: 10px;
+    font-weight: 400;
+    font-style: normal;
+    color: #12284c;
+   }
+   #line{
+    margin-left: 10px;
+    font-family: Montserrat Light,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #12284c;
+    font-size: xx-small;
+    line-height: 1.65;
+    margin-bottom: 20px;
+   }
+   .th{
+    color: inherit;
+    background-color: transparent;
+    font-size: x-small;
+    font-weight: lighter;
+   }
+   #add{
+    margin-left: 10px;
+    font-family: Montserrat Regular,sans-serif;
+    font-size: 12px;
+    font-weight: inherit;
+    font-weight: lighter;
+    margin: 20px 0px;
+    
+   }
+   #add>p+p{
+    
+    font-family: Montserrat Regular,sans-serif;
+    font-size: 10px;
+    font-weight: lighter;
+   }
+   hr{
+    width: 100%;
+   }
+   #sub {
+    text-align: right;
+  
+   }
+   #sub>p{
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: .2px;
+    font-family: Montserrat Regular,sans-serif;
+    color: #12284c;
+    font-weight: bold;
+   }
+  #total{
+    font-weight: lighter;
+  }
+  #sub>p+p{
+    font-family: Montserrat Regular,sans-serif;
+    font-size: 10px;
+    font-weight: lighter;
+  }
+  button{
+    padding: 5px;
+    width: 30%;
+    font-size: xx-small;
+    font-family: Montserrat Regular,sans-serif;
+    background-color: #12284c;
+    color: whitesmoke;
+    cursor: pointer;
+    margin-bottom: 100%;
+  }
