@@ -24,11 +24,14 @@ function displaytable(cartLS){
         td3.addEventListener("click",function(){
             delfunction()
             count--
+            document.querySelector("#item").innerText=count
+            sum-=eval(elem.price1)
+            document.querySelector("#total").innerText=sum
          })
 
         let td4=document.createElement("td")
         td4.innerText=elem.price 
-        sum+=eval(elem.price1)
+        sum+=elem.price1 
         document.querySelector("#total").innerText=sum
         td4.setAttribute("class","th")
         
